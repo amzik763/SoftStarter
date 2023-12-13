@@ -1,0 +1,2 @@
+rootProject.name = "Soft Starter"
+include ':app'

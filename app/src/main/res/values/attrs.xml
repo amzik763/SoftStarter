@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Speedometer">
+        <attr name="maxSpeed" format="integer" />
+        <attr name="borderSize" format="dimension" />
+        <attr name="textGap" format="dimension" />
+        <attr name="metricText" format="string" />
+        <attr name="borderColor" format="color" />
+        <attr name="fillColor" format="color" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomGauge">
+        <attr name="gaugePointSize" format="integer" />
+        <attr name="gaugePointStartColor" format="color" />
+        <attr name="gaugePointEndColor" format="color" />
+        <attr name="gaugeStrokeColor" format="color" />
+        <attr name="gaugeStrokeWidth" format="dimension" />
+        <attr name="gaugeStrokeCap" format="string" />
+        <attr name="gaugeStartAngle" format="integer" />
+        <attr name="gaugeSweepAngle" format="integer" />
+        <attr name="gaugeStartValue" format="integer" />
+        <attr name="gaugeEndValue" format="integer" />
+        <attr name="gaugeDividerSize" format="integer" />
+        <attr name="gaugeDividerColor" format="color" />
+        <attr name="gaugeDividerStep" format="integer" />
+        <attr name="gaugeDividerDrawFirst" format="boolean" />
+        <attr name="gaugeDividerDrawLast" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SpeedometerDialog">
+        <attr name="meterNumberFontAssetPath" format="string" />
+        <attr name="meterCenterFontAssetPath" format="string" />
+        <attr name="meterCenterDesc" format="string" />
+        <attr name="meterNumberTextSize" format="dimension" />
+        <attr name="meterCenterNumberTextSize" format="dimension" />
+        <attr name="meterCenterDescTextSize" format="dimension" />
+        <attr name="meterNumberMargin" format="dimension" />
+        <attr name="meterNumberTextColor" format="color" />
+        <attr name="meterNumberSelectedTextColor" format="color" />
+        <attr name="meterNumberLimitTextColor" format="color" />
+        <attr name="meterDividerAreaNumber" format="integer" />
+        <attr name="meterType" format="integer" />
+        <attr name="meterBottomEmptyAngle" format="integer" />
+        <attr name="meterRotateX" format="float" />
+        <attr name="meterTranslateZ" format="dimension" />
+        <attr name="meterTranslateY" format="dimension" />
+        <attr name="meterCenterTextColor" format="color" />
+        <attr name="meterCenterDescTextColor" format="color" />
+        <attr name="meterBg" format="color|reference" />
+        <attr name="meterMaskBg" format="color|reference" />
+        <attr name="meterCenterIc" format="color|reference" />
+        <attr name="meterPointer" format="reference" />
+        <attr name="meterHideCenterNumber" format="boolean" />
+        <attr name="meterHideDividerNumber" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewPager2Indicator">
+
+        <attr name="indicatorSelectedWidth" format="dimension" />
+        <attr name="indicatorMargin" format="dimension" />
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+
+</resources>

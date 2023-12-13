@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ss.ui.home.user.LogoutFragment">
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:text="Logout?"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvLogoutMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="Are you sure you want to logout?"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btCancel"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Cancel" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btLogout"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Logout" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

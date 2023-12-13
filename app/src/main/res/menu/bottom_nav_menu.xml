@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_baseline_dashboard"
+        android:title="@string/dashboard"/>
+    <item
+        android:id="@+id/trackFragment"
+        android:icon="@drawable/ic_baseline_fault"
+        android:title="@string/fault"/>
+    <item
+        android:id="@+id/alertsFragment"
+        android:icon="@drawable/ic_baseline_alerts"
+        android:title="@string/alerts"/>
+    <item
+        android:id="@+id/driveScoreFragment"
+        android:icon="@drawable/ic_baseline_history"
+        android:title="Setting"/>
+
+</menu>

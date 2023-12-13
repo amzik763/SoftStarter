@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_light"
+    tools:context=".ss.ui.home.device.DashboardFragment">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="155dp"
+        android:cropToPadding="true"
+        android:src="@drawable/skaio_2" />
+
+    <ImageView
+        android:id="@+id/ivImage_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="120dp"
+        android:background="@drawable/dialog_bg_3" />
+    <ImageView
+        android:id="@+id/ivImage_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/dialog_bg_3" />
+    <ImageView
+        android:id="@+id/ivImage_3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/dialog_bg_3" />
+    <ImageView
+        android:id="@+id/ivImage_4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/dialog_bg_3" />
+
+    <ImageView
+        android:id="@+id/ivPhaseR"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_phase"
+        android:backgroundTint="#E40808" />
+
+    <ImageView
+        android:id="@+id/ivPhaseB"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_phase"
+        android:backgroundTint="#4151F6" />
+
+    <ImageView
+        android:id="@+id/ivPhaseY"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_phase"
+        android:backgroundTint="#F8ED13" />
+
+    <ImageView
+        android:id="@+id/ivOnButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/ic_power_button"
+        android:backgroundTint="@color/MotorOn" />
+
+    <ImageView
+        android:id="@+id/ivOffButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/ic_power_button"
+        android:backgroundTint="@color/MotorOff" />
+
+    <ImageView
+        android:id="@+id/ivErrorButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/ic_power_button"
+        android:backgroundTint="@color/MotorError" />
+
+    <ImageView
+        android:id="@+id/ivWaitButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/ic_power_button"
+        android:backgroundTint="@color/secondary_text" />
+
+    <ImageView
+        android:id="@+id/ivNwErrButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/ic_power_button"
+        android:backgroundTint="#FFFF00" />
+
+    <TextView
+        android:id="@+id/ivUnit_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="120dp"
+        android:text="VOLT"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvVoltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="120dp"
+        android:text="440"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="120dp"
+        android:text="T"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvFreqency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="100dp"
+        android:text="50"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/et_Wattage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:text="15.5"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/et_WattageUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="40dp"
+        android:text="HP"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/et_Pf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+       android:layout_marginStart="40dp"
+        android:text="0.85"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/et_PfUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="40dp"
+        android:text="pf"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/et_MotorStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="0dp"
+        android:text="MOTOR STOP"
+        android:textColor="@color/MotorOff"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/kickSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="585dp"
+        android:text="Kick"
+        android:textColor="@color/primary_light" />
+
+    <com.github.capur16.digitspeedviewlib.DigitSpeedView
+        android:id="@+id/tvEnergy"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:disableBackgroundImage="true"
+        app:showUnit="true"
+        app:speed="0"
+        app:speedTextColor="@color/white"
+        app:speedTextSize="20dp"
+        app:unit="UNIT"
+        app:unitTextColor="@color/primary_light"
+        app:unitTextSize="5dp" />
+
+    <com.tillagewireless.ss.ui.grafics.SpeedometerDialog
+        android:id="@+id/et_Volt"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:translationZ="2dp"
+        app:meterBg="@drawable/dialog_bg_1"
+        app:meterCenterDesc="AMP"
+        app:meterCenterDescTextColor="#FFFFFF"
+        app:meterCenterDescTextSize="18sp"
+        app:meterCenterIc="@drawable/dialog_center_icon_1"
+        app:meterCenterNumberTextSize="40sp"
+        app:meterCenterTextColor="#FDFAF8"
+        app:meterDividerAreaNumber="10"
+        app:meterMaskBg="@drawable/dialog_mask_bg_1"
+        app:meterNumberLimitTextColor="#E30808"
+        app:meterNumberMargin="60dp"
+        app:meterNumberSelectedTextColor="#FFFFFF"
+        app:meterNumberTextColor="#FFFFFF"
+        app:meterNumberTextSize="20sp"
+        app:meterPointer="@drawable/dialog_pointer_1" />
+
+    <io.github.deweyreed.digitalwatchview.DigitalWatchView
+        android:id="@+id/et_Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="115dp"
+        app:dwv_background_alpha="0.5"
+        app:dwv_background_color="@color/black_light"
+        app:dwv_blink_colons="true"
+        app:dwv_foreground_color="@color/white"
+        app:dwv_hours="0"
+        app:dwv_minutes="0"
+        app:dwv_normal_text_size="12sp"
+        app:dwv_seconds="0"
+        app:dwv_seconds_text_size="12sp"
+        app:dwv_show_background="false"
+        app:dwv_show_hours="true"
+        app:dwv_show_seconds="true"
+        app:dwv_show_two_digits="true" />
+</FrameLayout>

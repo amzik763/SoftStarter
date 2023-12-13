@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myProfileFragment"
+        android:icon="@drawable/ic_baseline_my_profile"
+        android:title="@string/user_profile"/>
+    <item
+        android:id="@+id/registerVehicleFragment"
+        android:icon="@drawable/ic_baseline_vehicle_registration"
+        android:title="@string/register_starter"/>
+    <item
+        android:id="@+id/tripHistoryFragment"
+        android:icon="@drawable/ic_baseline_history"
+        android:title="@string/billing"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/rechargeFragment"
+        android:icon="@drawable/ic_baseline_recharge"
+        android:title="@string/recharge_account"/>
+    <item
+        android:id="@+id/customerCareFragment"
+        android:icon="@drawable/ic_baseline_customer_care"
+        android:title="@string/customer_care"/>
+    <item
+        android:id="@+id/logoutDialog"
+        android:icon="@drawable/ic_baseline_logout"
+        android:title="@string/logout"/>
+</menu>

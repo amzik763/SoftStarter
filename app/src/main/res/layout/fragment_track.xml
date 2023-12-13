@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_light"
+    tools:context=".ss.ui.home.device.TrackFragment">
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:cropToPadding="true"
+        android:src="@drawable/skaio_2" />
+
+    <ImageView
+        android:id="@+id/rotorLockClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rotor_lock_gray" />
+    <ImageView
+        android:id="@+id/motorShortClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/motor_short_gray" />
+    <ImageView
+        android:id="@+id/overLoadClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/over_load_gray" />
+    <ImageView
+        android:id="@+id/dryRunClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/dry_run_gray" />
+    <ImageView
+        android:id="@+id/overVoltageClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/over_voltage_gray" />
+    <ImageView
+        android:id="@+id/underVoltageClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/low_voltage_gray" />
+    <ImageView
+        android:id="@+id/phaseReversalClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/phase_reversal_gray" />
+    <ImageView
+        android:id="@+id/wrongFreqClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/wrong_freq_gray" />
+    <ImageView
+        android:id="@+id/phaseLossClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/phase_loss_gray" />
+    <ImageView
+        android:id="@+id/powerLossClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/power_loss_gray" />
+    <ImageView
+        android:id="@+id/rotorLockSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rotor_lock_red" />
+    <ImageView
+        android:id="@+id/motorShortSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/motor_short_red" />
+    <ImageView
+        android:id="@+id/overLoadSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/over_load_red" />
+    <ImageView
+        android:id="@+id/dryRunSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/dry_run_red" />
+    <ImageView
+        android:id="@+id/overVoltageSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/over_voltage_red" />
+    <ImageView
+        android:id="@+id/underVoltageSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/low_voltage_red" />
+    <ImageView
+        android:id="@+id/phaseReversalSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/phase_reversal_red" />
+
+    <ImageView
+        android:id="@+id/wrongFreqSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/wrong_freq_red" />
+
+    <ImageView
+        android:id="@+id/phaseLossSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/phase_loss_red" />
+    <ImageView
+        android:id="@+id/powerLossSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/power_loss_red" />
+    <ImageView
+        android:id="@+id/noFireSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/no_fire_red" />
+    <ImageView
+        android:id="@+id/noFireClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/no_fire_gray"/>
+    <ImageView
+        android:id="@+id/waterOverheatSet"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/water_overheat_red" />
+    <ImageView
+        android:id="@+id/waterOverheatClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/water_overheat_gray" />
+    <Button
+        android:id="@+id/ClearFaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:text="Clear FaultS" />
+    <Button
+        android:id="@+id/RestStarterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="280dp"
+        android:text="Restart Starter" />
+</FrameLayout>

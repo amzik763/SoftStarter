@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/dashboardFragment"
+    android:id="@+id/home_nav_host">
+
+    <fragment
+        android:id="@+id/tncFragment"
+        android:name="com.tillagewireless.ss.ui.home.user.TncFragment"
+        android:label="Terms &amp; Conditions"
+        tools:layout="@layout/fragment_tnc" />
+    <fragment
+        android:id="@+id/trackFragment"
+        android:name="com.tillagewireless.ss.ui.home.device.TrackFragment"
+        android:label="Track"
+        tools:layout="@layout/fragment_track" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.tillagewireless.ss.ui.home.device.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_trackFragment"
+            app:destination="@id/trackFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.tillagewireless.ss.ui.home.device.AlertsFragment"
+        android:label="Alert" />
+    <fragment
+        android:id="@+id/driveScoreFragment"
+        android:name="com.tillagewireless.ss.ui.home.device.DriveScoreFragment"
+        android:label="Drive Score"
+        tools:layout="@layout/fragment_drive_score" />
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.tillagewireless.ss.ui.home.user.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/registerVehicleFragment"
+        android:name="com.tillagewireless.ss.ui.home.user.RegisterVehicleFragment"
+        android:label="Register Vehicle"
+        tools:layout="@layout/fragment_register_vehicle" >
+        <action
+            android:id="@+id/action_registerVehicleFragment_to_setDeviceFragment"
+            app:destination="@id/setDeviceFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.tillagewireless.ss.ui.home.user.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/customerCareFragment"
+        android:name="com.tillagewireless.ss.ui.home.user.CustomerCareFragment"
+        android:label="Customer Care"
+        tools:layout="@layout/fragment_customer_care" />
+    <fragment
+        android:id="@+id/rechargeFragment"
+        android:name="com.tillagewireless.ss.ui.home.user.RechargeFragment"
+        android:label="Recharge"
+        tools:layout="@layout/fragment_recharge" />
+    <fragment
+        android:id="@+id/tripHistoryFragment"
+        android:name="com.tillagewireless.ss.ui.home.device.TripHistoryFragment"
+        android:label="Trip History"
+        tools:layout="@layout/fragment_trip_history" />
+    <dialog
+        android:id="@+id/logoutDialog"
+        android:name="com.tillagewireless.ss.ui.home.user.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/dialog_logout" />
+    <fragment
+        android:id="@+id/setDeviceFragment"
+        android:name="com.tillagewireless.ss.ui.home.user.SetDeviceFragment"
+        android:label="fragment_set_device"
+        tools:layout="@layout/fragment_set_device" >
+        <action
+            android:id="@+id/action_setDeviceFragment_to_registerVehicleFragment"
+            app:destination="@id/registerVehicleFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/home_nav_host"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"/>
+    </fragment>
+</navigation>

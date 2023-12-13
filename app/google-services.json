@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "932279234301",
+    "project_id": "skaio-soft-starter",
+    "storage_bucket": "skaio-soft-starter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932279234301:android:c2192e70489d8482df5894",
+        "android_client_info": {
+          "package_name": "com.vsecureuinfocom.skaio.ss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932279234301-bsbug689a7egebdt37otpvfotp1996i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLj6nwqLml_PAQMGjTEACiCpTTKIGAzWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932279234301-bsbug689a7egebdt37otpvfotp1996i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932279234301:android:15c643e2e386a4cedf5894",
+        "android_client_info": {
+          "package_name": "com.vsecureuinfocom.ss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932279234301-bsbug689a7egebdt37otpvfotp1996i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLj6nwqLml_PAQMGjTEACiCpTTKIGAzWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932279234301-bsbug689a7egebdt37otpvfotp1996i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

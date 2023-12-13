@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SkaioApp</string>
+    <string name="don_t_have_an_account_register_now">Don\'t have an account? <b>Register Now</b></string>
+    <string name="email">email</string>
+    <string name="email_hint">john@mail.czom</string>
+    <string name="password">password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot your password? <b>Reset Now</b></string>
+    <string name="register_now">Register Now</string>
+    <string name="already_have_an_account_login_now">Already have an account? <b>Login Now</b></string>
+    <string name="don_t_have_it_purchase_here">Don\'t have it? <b>purchase here</b></string>
+    <string name="GetPassword">Get Password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drive_score">Drive Score</string>
+    <string name="alerts">Alerts</string>
+    <string name="track">Track</string>
+    <string name="terms_and_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="my_profile">My Profile</string>
+    <string name="register_vehicle">Register Vehicle</string>
+    <string name="settings">Settings</string>
+    <string name="recharge">Recharge</string>
+    <string name="customer_care">Customer Care</string>
+    <string name="user_profile">User Profile</string>
+    <string name="recharge_account">Recharge Account</string>
+    <string name="logout">Logout</string>
+    <string name="trip_history">Trip History</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBuhoBzrfviEuDazrWzdDfvMUUAcYYuNiU</string>
+
+
+    <string name="websocket_url">http://10.0.2.2:5000/</string>
+    <string name="websocket_opened">WebSocket opened!</string>
+    <string name="websocket_closed">WebSocket closed.</string>
+    <string name="websocket_failure">WebSocket failure: %1$s</string>
+    <string name="websocket_received_message">WebSocket received message: %1$s</string>
+    <string name="websocket_sent_command">WebSocket sent message: %1$s</string>
+    <string name="empty" />
+    <string name="send_command_text">Send Command to Raspberry Pi</string>
+    <string name="status_line">%1$d: %2$s\n</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="fault">Fault</string>
+    <string name="history">History</string>
+    <string name="register_starter">Register Starter</string>
+    <string name="billing">Billing</string>
+</resources>
